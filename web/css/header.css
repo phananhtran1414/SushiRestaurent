@@ -1,0 +1,18 @@
+/*css for header*/
+.header{
+    background-color: #535353;
+    padding: 40px 2%;
+}
+
+.header h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #D5F46B;
+}
+
+.header span{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 20px;
+}

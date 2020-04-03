@@ -1,0 +1,14 @@
+/*css for footer*/
+.footer{
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: #fff;
+    border-top: #333333 solid 1px;
+}
+.footer a{
+    float: left;
+}
+.footer span{
+    float: right;
+}

@@ -1,0 +1,228 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 15, 2020, 12:00:43 PM
+    Author     : Khanh Xinh Tuoi
+*/
+
+body{
+    margin: 0px;
+    background-image: url(../images/wine.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;  
+    background-color: greenyellow;
+}
+#mainBox{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 8px black;
+}
+
+/*css for menuBar*/
+
+.menu{
+    background-color: #303030;
+    height: 25px;
+    width: 100%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2%;
+    margin-right: 15px;
+}
+
+/*css for main-content*/
+.content{
+    padding: 20px 2%;
+    background-color: #fff;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.main-content{
+    display: flex;
+}
+.fontCalibri{
+    font-family: Calibri;
+}
+/*content- left in order 1*/
+.content-left{
+    order: 1;
+    padding-right: 2%;
+    width: 75%;
+    height: 100%;
+}
+/*content- left in order 2*/
+.content-right{
+    order: 2;
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    margin-bottom: 20px;
+    background-color: activeborder;
+}
+
+
+/*for img*/
+.img-border{
+    padding-bottom: 20px;
+}
+
+.img-border img{
+    border-radius: 15px;
+    width: 100%;
+}
+
+.contact p{
+    width: 260px;
+}
+
+.post{
+    margin-top: 20px;
+}
+
+.border-post{
+    clear: both;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-top: 1px dashed gray;
+    overflow: auto;
+}
+
+.details span{
+    font-weight: bold;
+}
+
+.border-post a{
+    text-decoration: none;
+    color: #303030;
+    font-weight: bold;
+}
+
+.right-post{
+    color: gray;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.right-post p{
+    margin-top: 0;
+}
+
+.left-post{
+    float: left;
+    width: 45%;
+    margin-right: 10px;
+}
+.left-post img{
+    border-radius: 15px;
+}
+
+.left-post img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.menu-container{    
+    margin-bottom: 50px;
+}
+
+.menu-container .order, .title{
+    line-height: 45px;
+}
+
+.menu-container .order{
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+.float-right{
+    float: right;
+    margin-right: 5px;
+}
+
+.menu-container span{
+    margin-left: 5px;
+}
+
+.menu-container .descriptment{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px dashed gray;
+}
+
+
+/*paging*/
+
+
+#numberPagination{
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+}
+.activation{
+    margin: 2px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #cccccc;
+    background-color: #cccccc;
+    color: black;
+}
+.deactivation{
+    background-color: background;
+    margin: 2px;
+    padding: 5px;
+    border-style: solid;
+    border-color: background;
+    color: #ffffff;
+}
+/*////////////////*/
+
+.info{
+    float: left;
+    width: 40%;
+}
+
+.opening{
+    float: right;
+    width: 40%;
+}
+
+.map{
+    clear: both;
+}
+
+.border-map{
+    border-top: 1px dashed gray;
+}
+
+.border-map img{
+
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.setBold{
+    font-weight: bold;
+}
