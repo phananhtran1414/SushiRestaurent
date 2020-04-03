@@ -74,13 +74,13 @@ public class HomeController extends HttpServlet {
                 NewsDAO homeDao = new NewsDAO();
                 InfoDAO infoDao = new InfoDAO();
                 
-                int totalPage = homeDao.getTotalPages();
+                //int totalPage = homeDao.getTotalPages();
                 List<News> arrHome = homeDao.getDataList(currentPage);
                 if (arrHome.isEmpty()) {
                     noProduct = true;
                 }
                 
-                request.setAttribute("maxPage", totalPage);
+                request.setAttribute("maxPage", homeDao.getTotalPages());
                 request.setAttribute("currentPage", currentPage);
                 request.setAttribute("noProduct", noProduct);
                 request.setAttribute("arrHome", arrHome);
