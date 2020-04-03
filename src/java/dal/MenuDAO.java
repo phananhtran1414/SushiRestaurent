@@ -35,6 +35,7 @@ import java.util.logging.Logger;
 public class MenuDAO {
     /**Store DBContext object*/
     DBContext db = new DBContext();
+    int check = 0;
     
     /**
      * Xử lí lấy dữ liệu Menu trong CSDL.<br>
